@@ -1,0 +1,3 @@
+Nazanin; Primary partner contact and product contact at Kooch; nazanin.mirsharifi@gmail.com
+Hossein; Secondary partner contact and technical contact at Kooch, responsible for repository access and technical support;
+Rui Song; Mentor TA; ruii.song@mail.utoronto.ca
