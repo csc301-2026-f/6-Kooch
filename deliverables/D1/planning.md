@@ -1,4 +1,4 @@
-# Kooch/ Team 6 Team Banana
+# Kooch/ Team 6 - CSC301 group banana
 > _Note:_ This document will evolve throughout your project. You commit regularly to this file while working on the project (especially edits/additions/deletions to the _Highlights_ section).
  > **This document will serve as a master plan between your team, your partner and your TA.**
 
@@ -61,7 +61,7 @@ Secondary users - Kooch administrators:
 Noor, Content Lead, is a non-developer who manages Kooch’s content across English, Dutch, and Farsi. She needs to update rules, see which users are affected, preview changes, and publish them without relying on a developer.
 
 Indirect users - Professionals
-Fatima, an immigration lawyer on Find Help, benefits when newcomers are connected to professional support.
+Fatima, an immigration lawyer on the Find Help, benefits when newcomers are connected to professional support.
 
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need? Jia Ying
 
