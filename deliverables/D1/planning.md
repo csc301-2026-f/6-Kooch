@@ -201,7 +201,14 @@ Briefly describe which option you have agreed to.
 Do a team-building activity in-person or online. This can be playing an online game, meeting for bubble tea, lunch, or any other activity you all enjoy.
 * Get to know each other on a more personal level.
 * Provide a few sentences on what you did and share a picture or other evidence of your team building activity.
-* Share at least three fun facts from members of you team (total not 3 for each member).
+* Share at least three fun facts from members of your team (total not 3 for each member).
+![Diagram 2 from the team planning document](assets/team-building-1.png)
+![Diagram 3 from the team planning document](assets/team-building-2.png)
+Fun facts:
+
+1. Roni is born on the last day of the year, December 31st
+2. Jia Ying has pink hair
+3. Ryan can play 3 instruments: guitar, saxophone, and piano
 
 #### Q7: What are the roles & responsibilities on the team?
 
@@ -214,6 +221,18 @@ Describe the different roles on the team and the responsibilities associated wit
 List each team member and:
  * A description of their role(s) and responsibilities including the components they'll work on and non-software related work
  * Why did you choose them to take that role? Specify if they are interested in learning that part, experienced in it, or any other reasons. Do no make things up. This part is not graded but may be reviewed later.
+
+All members chose their roles based on interest, and since there were no conflicting choices, we decided to use those roles. We also understand the roles are flexible, and we can help each other out on various portions of the project.
+
+Our current team responsibilities are:
+
+* **Roni – Team Coordinator/Scrum Master:** organizes internal meetings, facilitates sprint planning, and monitors the team’s overall progress.
+* **Stephen – Primary Kooch Liaison and Roadmap UI Developer:** communicates with the partner and TA, prepares partner meeting agendas and minutes, and contributes to the user-facing roadmap, intake flow, multilingual support, and right-to-left layout.
+* **Nikolos – Backup Kooch Liaison and Admin Editor Lead:** supports partner communication and works on the rule editor and preview functionality.
+* **Isabelle – Engine Lead:** works on the rule-pack format, rule validation, and roadmap generation logic, with support from Roni.
+* **Andy – Roadmap UI and QA Developer:** contributes to the roadmap interface, intake flow, multilingual and right-to-left support, as well as testing.
+* **Jia Ying – Rule Content Lead:** researches official Netherlands settlement information and prepares the initial Netherlands rule pack for Kooch’s review.
+* **Ryan – QA and Testing Lead:** prepares test profiles, automated tests for the rules engine, and the release checklist.
 
 #### Q8: How will you work as a team?
 
@@ -326,7 +345,7 @@ Kooch is a small team:
 - **Naz:** founder, product, design, content. Your main partner contact.
 - **Hossein:** primary developer, owns the core platform and the current roadmap.
 
-For this term, our student team will operate as Kooch's full-stack team for the roadmap engine. This means that we’ll be doing a combination of developing new features, testing and validating existing implementations, and ensuring that new and existing systems work smoothly together.
+For this term, our student team will operate as Kooch's full-stack development team for the roadmap engine. This means that we’ll be doing a combination of developing new features, testing and validating existing implementations, and ensuring that new and existing systems work smoothly together.
 
 We’ll be building a new core system the rest of Kooch will depend on as they expand. As of Deliverable 1, we plan to build a modular foundation that separates country-specific settlement rules from the core roadmap system, allowing Kooch to support additional countries without rebuilding the product for each country. This will be a core system that other parts of Kooch will depend on as the platform expands. Our work will span the roadmap's database, backend, and frontend architecture and will integrate with Kooch's existing platform and UI rather than replacing it entirely.
 
@@ -350,7 +369,7 @@ flowchart TB
 ```
 
 Below is a visual example:
-![Diagram 2 from the team planning document](assets/planning-diagram-2.png)
+![Diagram 4 from the team planning document](assets/planning-diagram-2.png)
 
 Kooch already has an existing Settlement Roadmap with much of the user-facing UI and basic roadmap logic implemented. Our project’s current main goal is to help redesign the country-specific logic underlying the roadmap to make it modular, particularly by separating country-specific settlement and immigration rules from the core roadmap system. Existing components such as the roadmap UI and user accounts will remain in place and will integrate with the new modular system.
 
