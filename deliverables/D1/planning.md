@@ -173,12 +173,19 @@ Rough architecture / components of the project:
 ![Diagram 1 from the team planning document](assets/planning-diagram-1.png)
 
 A: Admin rules editor - A screen where someone from the content team can edit rule packs modularly without changing code.
+
 B: Rule packs - Versioned data, with one pack per country. They contain the rules for generating roadmaps based on user profiles and the country rules. They are stored in the database, and can be exported into a readable JSON format for easy review.
+
 C: Validator - An object/function which checks whether rule packs are valid before they can be published. It checks things like structure, whether there are dependency cycles, missing translations, broken references, etc…
+
 D: Roadmap Generator - An object/function which takes the user responses as well as a specified rule pack version to output a personal roadmap for the user. It should be deterministic, so it should not rely on AI or randomness.
+
 E: User Questionnaire - A screen where users can answer a list of questions which will be used for determining their personal roadmap.
+
 F: Personal Roadmap UI - A screen that takes the output from D (the raw data for the roadmap), and makes it readable and pretty for the user.
+
 G: Activity Ledger - An object that records what users do (completed, skipped, reopened). Task state is derived from it, never overwritten. Append only.
+
 H: Find Help Categories - From F, the roadmap UI, users can click a find help button for that specific task. It will go to a screen where the user can request help from an expert.
 
 The design will be modular, where we never hardcode rules for a specific country.
