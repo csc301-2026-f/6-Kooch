@@ -205,6 +205,8 @@ The design will be modular, where we never hardcode rules for a specific country
 
 Briefly describe which option you have agreed to.
 
+We have agreed to option #5 with our partner. A message from them: "You can reference this project on your CV, portfolio and in interviews. The code stays within Kooch unless Kooch agrees otherwise, because it lives inside a production codebase that handles real user data. Kooch will not ask you to sign any NDA, IP or confidentiality documents."
+
 ----
 
 ## Teamwork Details
