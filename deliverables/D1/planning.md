@@ -146,6 +146,12 @@ As a
 
 * A partial pack (5 to 10 tasks) for one other country runs through the same engine with zero code changes
 
+### Partner Approval Evidence
+
+Our project partners, Nazanin Mirsharifi and Hossein, reviewed and approved the MVP user stories above in writing on October 2, 2026.
+
+![Email confirmation from the Kooch partner approving the MVP user stories](assets/partner-mvp-approval.png)
+
 #### Q5: Have you decided on how you will build it? Share what you know now or tell us the options you are considering.
 
 > Short (1-2 min' read max)
